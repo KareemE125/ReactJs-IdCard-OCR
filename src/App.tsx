@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import myImage from './assets/kareem.jpg'
 
-function App() {
+
+export default function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='px-2 pt-12 text-white min-h-screen' >
+      <Navbar />
+      <main className='max-w-5xl m-auto sm:px-16 pt-24'>
+        <Home />
+      </main>
+      <footer className='-mx-2 py-6 bg-black flex justify-between items-center px-24'>
+          <p className='text-center text-3xl'>🕊</p>
+          <p className='text-center text-lg'>--- Made by <strong>Kareem Ezzat</strong> ---</p>
+          <p className='text-center text-3xl'>🕊</p>
+      </footer>
+    </main>
   );
 }
 
-export default App;
