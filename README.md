@@ -1,10 +1,12 @@
 # ID Card Data Extractor 
 ### React.js + Tesseract.js + lottie-react
-
+YOU CAN TEST USING THE IDs IN THE ASSETS FOLDER ./src/assets
+---
 ![screencapture-localhost-3000-2024-01-27-10_08_23](https://github.com/KareemE125/ReactJs-IdCard-OCR/assets/61433385/00ac61b4-ebc4-4262-b59e-dd4ffc48ca09)
 
 
 ---
+
 ---
 ## Getting Started with Create React App
 
