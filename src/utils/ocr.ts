@@ -3,7 +3,7 @@ import IdData from "../models/IdData";
 async function ocr(image: File){
 
     const formData = new FormData();
-    formData.append('apikey', 'K82440376688957');
+    formData.append('apikey', 'K87727742488957');
     formData.append('language', 'dut');
     formData.append('isOverlayRequired', 'true');
     formData.append('file', image);
