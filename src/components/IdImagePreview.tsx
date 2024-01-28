@@ -10,7 +10,7 @@ export default function IdPreview() {
     <section className="pb-8 px-8">   
       {
         idData.imageUrl 
-        ? <div className="pt-3 flex flex-col justify-center gap-4">
+        ? <div className="pt-3 flex flex-col justify-center items-center gap-4">
             <p>Current Image: <span className="font-bold">{idData.imageName}</span></p>
             <img
               src={idData.imageUrl}
